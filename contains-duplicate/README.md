@@ -11,14 +11,12 @@ Input: `nums = [1, 2, 3, 4]`
 
 Output: `false`
 
-## Instructions for Running
+## Running the code
 ```python
-python3 code
+python3 code.py
 ```
-
 OR
-
 ```python
-python3 code < example1.txt
-python3 code < example2.txt
+python3 code.py < example1.txt
+python3 code.py < example2.txt
 ```

@@ -1,9 +1,10 @@
 import json
 from typing import List
 
-class ContainsDuplicate:
+class Solution:
   def __init__(self, nums):
     self.nums = nums
+    
   def hasDuplicate(self, nums: List[int]) -> bool:
     return len(nums) > len(set(nums))
 
@@ -14,8 +15,8 @@ def main():
     exit(1)
 
   nums = json.loads(str)
-  obj = ContainsDuplicate(nums)
-  print(obj.hasDuplicate(nums));
+  obj = Solution(nums)
+  print(obj.hasDuplicate(nums))
 
 if __name__ == "__main__":
   main()
