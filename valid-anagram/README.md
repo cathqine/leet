@@ -17,7 +17,7 @@ Output: `false`
 python3 code.py
 ```
 OR
-```
+```python
 python3 code.py < example1.txt
 python3 code.py < example2.txt
 ```
